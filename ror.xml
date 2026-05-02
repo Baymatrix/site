@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="http://www.rorweb.com/ror.css" type="text/css"?>
+<!-- This is a ROR formatted XML document describing the resources of the website http://www.bayermatrix.com. For information about the ROR format, go to www.rorweb.com --> 
+<rdf:RDF xmlns="http://rorweb.com/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> 
+
+<!-- ******************** Main Info ******************** --> 
+<Resource rdf:about="main">
+    <rorinfo>This is a ROR formatted XML document describing the resources of the website http://www.bayermatrix.com. For information about the ROR format, go to www.rorweb.com</rorinfo>
+    <type>Main</type>
+    <type>Website</type>
+    <title>The Bayer Matrix</title>
+    <url>http://www.bayermatrix.com</url>
+    <desc>The Bayer Matrix is a conceptual framework which allows visualisation of conceptual notions. It integrates the four elements of human potential, feel, think, act and time, into a modular construct and serves as a landscape of values and entities.</desc>
+    <keywords>Bayer Matrix, Ben Bayer, Matrix, Bayer, Psychology, Philosophy, Education, Linguistics</keywords>
+</Resource>
+
+<!-- ******************** Contact Info ***************** --> 
+<Resource rdf:about="contact">
+    <type>Contact</type>
+    <title>Contact Info</title>
+    <name>The Bayer Matrix</name>
+    <url>http://www.bayermatrix.com</url>
+    <resourceOf rdf:resource="main"/>
+</Resource>
+
+<Resource rdf:about="address">
+    <type>Address</type>
+    <title>Address</title>
+        <country>AU</country>
+    <resourceOf rdf:resource="contact"/>
+</Resource>
+
+<!-- ******************** Site Map Info ***************** --> 
+<Resource rdf:about="sitemap">
+    <type>SiteMap</type>
+    <title>Sitemap Information</title>
+    <sitemapGoogle>http://</sitemapGoogle>
+    <sitemapROR>http://</sitemapROR>
+    <sitemapYahoo></sitemapYahoo>
+    <resourceOf rdf:resource="main"/>
+</Resource>
+
+<Resource rdf:about="map-about">
+    <title>About</title>
+    <seeAlso rdf:resource="main"/>
+    <resourceOf rdf:resource="sitemap"/>
+</Resource>
+
+<Resource rdf:about="map-contact">
+    <title>Contact</title>
+    <seeAlso rdf:resource="contact"/>
+    <resourceOf rdf:resource="sitemap"/>
+</Resource>
+
+</rdf:RDF>
+
+
+
+
+
+
